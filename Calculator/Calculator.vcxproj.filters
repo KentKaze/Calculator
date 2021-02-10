@@ -63,7 +63,10 @@
     <ClCompile Include="NumberConst.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="LongConst.cpp">
+    <ClCompile Include="DoubleConst.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LongLongConst.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -113,10 +116,13 @@
     <ClInclude Include="NumberConst.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="LongConst.h">
+    <ClInclude Include="Exception.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Exception.h">
+    <ClInclude Include="DoubleConst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LongLongConst.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

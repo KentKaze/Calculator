@@ -15,9 +15,9 @@ void* ArithmeticExpression::GetValue()
 
 }
 
-ArithmeticExpression::ArithmeticExpression(ArithmeticExpression* a, ArithmeticExpression* b, OPERATOR op)
-{
-	_a = a;
-	_b = b;
-	_op = op;
-}
+//ArithmeticExpression::ArithmeticExpression(ArithmeticExpression* a, ArithmeticExpression* b, OPERATOR op)
+//{
+//	_a = a;
+//	_b = b;
+//	_op = op;
+//}

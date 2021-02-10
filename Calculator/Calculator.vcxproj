@@ -147,8 +147,9 @@
     <ClCompile Include="Calculator.cpp" />
     <ClCompile Include="Char.cpp" />
     <ClCompile Include="CompareExpression.cpp" />
+    <ClCompile Include="DoubleConst.cpp" />
     <ClCompile Include="Expression.cpp" />
-    <ClCompile Include="LongConst.cpp" />
+    <ClCompile Include="LongLongConst.cpp" />
     <ClCompile Include="Number.cpp" />
     <ClCompile Include="NumberConst.cpp" />
     <ClCompile Include="NumberVar.cpp" />
@@ -165,9 +166,10 @@
     <ClInclude Include="BooleanExpression.h" />
     <ClInclude Include="Char.h" />
     <ClInclude Include="CompareExpression.h" />
+    <ClInclude Include="DoubleConst.h" />
     <ClInclude Include="Exception.h" />
     <ClInclude Include="Expression.h" />
-    <ClInclude Include="LongConst.h" />
+    <ClInclude Include="LongLongConst.h" />
     <ClInclude Include="Number.h" />
     <ClInclude Include="NumberConst.h" />
     <ClInclude Include="NumberVar.h" />
