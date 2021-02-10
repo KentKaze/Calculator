@@ -3,5 +3,6 @@
 class ArithmeticExpression :
     public Expression
 {
+    Operand Calculate();
 };
 

@@ -4,10 +4,16 @@
 class Expression
 {
 public:
-	Operand a;
-	Operand b;
-	Operator op;
+	//Expression * a;
+	//Expression * b;
+	//OPERATOR op;
 
-	virtual Operand Calculate();
+	virtual Operand Calculate() = 0;
+	virtual Expression GetA() = 0;
+	virtual Expression GetB() = 0;
+	virtual Expression GetOp() = 0;
+
+protected:
+	OPERATOR op;
 };
 
