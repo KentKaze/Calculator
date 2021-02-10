@@ -17,3 +17,12 @@
 //NumberConst::NumberConst(double n)
 //{
 //}
+
+NumberConst::NumberConst()
+{
+}
+
+//NumberConst* NumberConst::operator+(NumberConst* b)
+//{
+//	/*return this + b->GetValue();*/
+//}

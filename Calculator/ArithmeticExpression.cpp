@@ -1,13 +1,12 @@
 #include "Exception.h"
 #include "ArithmeticExpression.h"
 
-void* ArithmeticExpression::GetValue()
+Operand* ArithmeticExpression::GetValue()
 {
 	switch (_op)
 	{
 		/*case OPERATOR_PLUS:
-			return _a->GetValue() + _b->GetValue();
-			break;*/
+			return _a->GetValue() + _b->GetValue();		*/
 	default:
 		throw CA_OPERATOR_IS_INVALID;
 	}
@@ -15,9 +14,13 @@ void* ArithmeticExpression::GetValue()
 
 }
 
-//ArithmeticExpression::ArithmeticExpression(ArithmeticExpression* a, ArithmeticExpression* b, OPERATOR op)
-//{
-//	_a = a;
-//	_b = b;
-//	_op = op;
-//}
+ArithmeticExpression::ArithmeticExpression()
+{
+}
+
+ArithmeticExpression::ArithmeticExpression(ArithmeticExpression* a, ArithmeticExpression* b, OPERATOR op)
+{
+	_a = a;
+	_b = b;
+	_op = op;
+}

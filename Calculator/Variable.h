@@ -6,6 +6,6 @@ class Variable
 {
 
 protected:
-	void* reference;
+	Variable();
 };
 

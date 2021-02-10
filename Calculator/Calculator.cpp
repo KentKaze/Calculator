@@ -5,13 +5,21 @@
 //#include "Number.h"
 #include "LongLongConst.h"
 #include "Expression.h"
+#include "Object.h"
+
+using namespace std;
+
 int main()
 {
     int a;
     //std::cout << "Hello World!\n";
-    Expression * ex = new LongLongConst(20);
+    Expression* ex = new LongLongConst(20);
+    Expression* ex2 = new LongLongConst(30);
+    Object* o = new Object();
     
+    std::cout << o->ToString() << std::endl;
     std::cout << *((long *)ex->GetValue()) << std::endl;
+    std::cout << ex2->ToString() << std::endl;
     std::cin >> a;
 }
 

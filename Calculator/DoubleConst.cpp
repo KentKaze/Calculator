@@ -1,8 +1,8 @@
 #include "DoubleConst.h"
 
-void* DoubleConst::GetValue()
+Operand* DoubleConst::GetValue()
 {
-	return nullptr;
+	return this;
 }
 
 DoubleConst::DoubleConst(double value)

@@ -1,8 +1,10 @@
 #pragma once
 #include "ArithmeticExpression.h"
-class Number :
-    public ArithmeticExpression
+#include "Operand.h"
+class Number :    
+    public ArithmeticExpression, public Operand
 {
-    
+protected :
+    Number();
 };
 

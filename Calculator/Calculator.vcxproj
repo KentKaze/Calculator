@@ -153,6 +153,7 @@
     <ClCompile Include="Number.cpp" />
     <ClCompile Include="NumberConst.cpp" />
     <ClCompile Include="NumberVar.cpp" />
+    <ClCompile Include="Object.cpp" />
     <ClCompile Include="Operand.cpp" />
     <ClCompile Include="Operator.cpp" />
     <ClCompile Include="OperatorEnums.cpp" />
@@ -173,6 +174,7 @@
     <ClInclude Include="Number.h" />
     <ClInclude Include="NumberConst.h" />
     <ClInclude Include="NumberVar.h" />
+    <ClInclude Include="Object.h" />
     <ClInclude Include="Operand.h" />
     <ClInclude Include="Operator.h" />
     <ClInclude Include="OperatorEnums.h" />

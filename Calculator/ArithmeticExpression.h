@@ -1,14 +1,18 @@
 #pragma once
 #include "Expression.h"
 #include "Operator.h"
+#include "Operand.h"
 class ArithmeticExpression :
     public Expression
 {
 public:
-    virtual void* GetValue();
-    //ArithmeticExpression(ArithmeticExpression * a, ArithmeticExpression * b, OPERATOR op);
-   /* NumberConst * operator+(ArithmeticExpression b);
-    NumberConst * operator-(ArithmeticExpression b);
+    virtual Operand* GetValue();    
+    ArithmeticExpression(ArithmeticExpression*, ArithmeticExpression*, OPERATOR);
+protected:
+    ArithmeticExpression();
+    //NumberConst* a();
+   /* virtual NumberConst* operator+(ArithmeticExpression*) = 0;*/
+    /*NumberConst * operator-(ArithmeticExpression b);
     NumberConst * operator*(ArithmeticExpression b);
     NumberConst * operator/(ArithmeticExpression b);*/
 private:

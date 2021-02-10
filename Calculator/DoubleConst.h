@@ -7,7 +7,7 @@ public:
 	//static const long MinValue = 0;
 	const double InitialValue = 0.0;
 	//static const long MaxValue = 9223372036854775807;
-	void* GetValue();
+	Operand* GetValue();
 
 	NumberConst* operator+ (long*);
 	NumberConst* operator+ (double*);

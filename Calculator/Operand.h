@@ -1,9 +1,9 @@
 #pragma once
-#include "Expression.h"
-
-class Operand :
-	public Expression
+#include "Object.h"
+class Operand
+	: public Object
 {
-
+protected:
+	Operand();
 };
 

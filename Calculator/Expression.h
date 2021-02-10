@@ -1,7 +1,8 @@
 #pragma once
-//#include "Operand.h"
+#include "Operand.h"
 //#include "Operator.h"
 class Expression
+	: public Object
 {
 	//int pp;
 //public:
@@ -9,7 +10,10 @@ class Expression
 	//Expression * b;
 	//OPERATOR op;
 public:
-	virtual void * GetValue() = 0;
+	virtual Operand* GetValue() = 0;
+	virtual char* ToString();
+protected:
+	Expression();
 	/*
 	virtual Expression GetA() = 0;
 	virtual Expression GetB() = 0;
