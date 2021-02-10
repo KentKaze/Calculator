@@ -1,6 +1,6 @@
 #include "Expression.h"
 
-char* Expression::ToString()
+const char* Expression::ToString(char* const buffer)
 {
 	return "(expression)";
 }

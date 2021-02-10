@@ -1,6 +1,11 @@
 #include "Object.h"
 
-char* Object::ToString()
+const char* Object::ToString()
+{
+	return "(object)";
+}
+
+const char* Object::ToString(char* const buffer)
 {
 	return "(object)";
 }

@@ -144,6 +144,7 @@
     <ClCompile Include="ArithmeticExpression.cpp" />
     <ClCompile Include="Boolean.cpp" />
     <ClCompile Include="BooleanExpression.cpp" />
+    <ClCompile Include="BufferProvider.cpp" />
     <ClCompile Include="Calculator.cpp" />
     <ClCompile Include="Char.cpp" />
     <ClCompile Include="CompareExpression.cpp" />
@@ -165,6 +166,7 @@
     <ClInclude Include="ArithmeticExpression.h" />
     <ClInclude Include="Boolean.h" />
     <ClInclude Include="BooleanExpression.h" />
+    <ClInclude Include="BufferProvider.h" />
     <ClInclude Include="Char.h" />
     <ClInclude Include="CompareExpression.h" />
     <ClInclude Include="DoubleConst.h" />
@@ -181,6 +183,9 @@
     <ClInclude Include="String.h" />
     <ClInclude Include="StringExpression.h" />
     <ClInclude Include="Variable.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

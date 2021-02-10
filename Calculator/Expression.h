@@ -11,7 +11,7 @@ class Expression
 	//OPERATOR op;
 public:
 	virtual Operand* GetValue() = 0;
-	virtual char* ToString();
+	virtual const char* ToString(char* const buffer);
 protected:
 	Expression();
 	/*

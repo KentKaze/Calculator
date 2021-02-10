@@ -9,18 +9,28 @@
 
 using namespace std;
 
+char * ReturnChar()
+{
+    char * abc = new char[4];
+    abc = "abc";
+    return abc;
+}
+
 int main()
 {
     int a;
-    //std::cout << "Hello World!\n";
-    Expression* ex = new LongLongConst(20);
-    Expression* ex2 = new LongLongConst(30);
+    cout << ReturnChar() << endl;
+    LongLongConst* ex = new LongLongConst(20);
+    LongLongConst* ex2 = new LongLongConst(30);
     Object* o = new Object();
     
-    std::cout << o->ToString() << std::endl;
-    std::cout << *((long *)ex->GetValue()) << std::endl;
-    std::cout << ex2->ToString() << std::endl;
-    std::cin >> a;
+    //char buffer[200];
+    cout << o->ToString() << endl;
+   /* std::cout << *((long *)ex->GetValue()) << std::endl;*/
+    //char* b = ex2->ToString();
+    NumberConst * r = ex->operator+(ex2);
+    cout << r->ToString() << endl;
+    cin >> a;
 }
 
 
