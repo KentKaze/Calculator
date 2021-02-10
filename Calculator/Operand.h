@@ -1,5 +1,9 @@
 #pragma once
-class Operand
+#include "Expression.h"
+
+class Operand :
+	public Expression
 {
+
 };
 

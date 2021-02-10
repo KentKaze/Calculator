@@ -54,6 +54,18 @@
     <ClCompile Include="OperatorEnums.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="NumberVar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Variable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NumberConst.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LongConst.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Operand.h">
@@ -90,6 +102,21 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="OperatorEnums.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NumberVar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Variable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NumberConst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LongConst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

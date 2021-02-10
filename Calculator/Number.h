@@ -1,7 +1,8 @@
 #pragma once
-#include "Operand.h"
+#include "ArithmeticExpression.h"
 class Number :
-    public Operand
+    public ArithmeticExpression
 {
+    
 };
 

@@ -2,10 +2,17 @@
 //
 
 #include <iostream>
-#include "Number.h"
+//#include "Number.h"
+#include "LongConst.h"
+#include "Expression.h"
 int main()
 {
-    std::cout << "Hello World!\n";
+    int a;
+    //std::cout << "Hello World!\n";
+    Expression * ex = new LongConst(20);
+    
+    std::cout << *((long *)ex->GetValue()) << std::endl;
+    std::cin >> a;
 }
 
 
